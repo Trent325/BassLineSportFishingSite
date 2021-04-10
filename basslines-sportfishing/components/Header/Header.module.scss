@@ -1,11 +1,49 @@
 .headerParent{
     width: auto;
-    height: 90px;
-    position: relative;
+    height: 110px;
+    position: fixed;
     display: flex;
     background-color:white;
-    box-shadow: 5px 5px 5px #cecece;
+    box-shadow: 5px 5px 5px #ebab81;
+    z-index: 1000;
+    left: 0;
+    right: 0;
 }
-.headerLogo{
-    @media(min-width: none;)
+.HeaderLogo img{
+    height: 110px;
+    width: auto;
+    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);    
+}
+.HeaderButton{
+    width:auto;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-right: 40;
+    color: rgb(10, 3, 1);
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 40px; 
+    padding-right:40px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+.HeaderButtonWrapper{
+    position: relative;
+    display: block;
+    text-align: right;
+    top: 50%;
+    transform: translateY(-50%);  
+    width: 100%;
+}
+
+.headerContentSpacer{
+    width: auto;
+    height: 110px; //Muse be the same size of the header
+    position: relative;
+    display: block;
 }
