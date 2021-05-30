@@ -1,0 +1,77 @@
+.Parent{
+    position: relative;
+    display: block;
+    background-color: #ebab81;
+    box-shadow: 5px 5px 5px #ebab81;
+    width: auto;
+    height: 250px;
+    transform: translateY(-50%,-50%);
+}
+.textWrapper{
+
+    transform: translateY(-50%, -50%);
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    position: relative;
+    display: block;
+    padding-top: 100px;
+}
+.Charter{
+    position: relative;
+    display: block;
+    background-color:white;
+    box-shadow: 5px 5px 5px #ebab81;
+    width: auto;
+    height: 400px;
+    transform: translateY(-50%,-50%);
+}
+.textWrapperHeader{
+
+    transform: translateY(-50%, -50%);
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    font-style: italic;
+    font-weight:600;
+    position: relative;
+    display: block;
+    padding-top: 50px;
+}
+
+.img{
+    position: relative;
+    width: auto;
+    height: 400px;
+    box-shadow: 5px 5px 5px #ebab81;
+    background-color: black;
+
+}
+.imgWrapper{
+    position: relative;
+    display: block;
+    object-fit: cover;
+}
+.card{
+    position: relative;
+    width: auto;
+    height: 600px;
+    background-color: white;
+}
+.cardImg{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    padding-right: 300px;
+    
+}
+.cardText{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    padding-left: 300px;
+    background-color: #ebab81;
+}
+

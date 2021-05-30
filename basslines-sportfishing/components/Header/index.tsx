@@ -12,16 +12,19 @@ const Header: React.FC =() =>{
                 </span>
                 <span className={style.HeaderButtonWrapper}>
                     <div className={style.HeaderButton}>
-                        Home
+                    Home
                     </div>
                     <div className={style.HeaderButton}>
-                        Meet The Crew
+                    Meet The Crew 
                     </div>
                     <div className={style.HeaderButton}>
-                        Our Boat
+                    Our Boat
                     </div>
                     <div className={style.HeaderButton}>
-                        Reviews
+                     Our Trips
+                    </div>
+                    <div className={style.HeaderButton}>
+                    Book a trip 
                     </div>
                 </span>
             </div>

@@ -1,7 +1,7 @@
 .headerParent{
     width: auto;
     height: 110px;
-    position: fixed;
+    position: relative;
     display: flex;
     background-color:white;
     box-shadow: 5px 5px 5px #ebab81;
@@ -12,10 +12,9 @@
 .HeaderLogo img{
     height: 110px;
     width: auto;
-    position: relative;
+    position: absolute;
     display: block;
-    top: 50%;
-    transform: translateY(-50%);    
+    transform: translateY(-50%,-50%);    
 }
 .HeaderButton{
     width:auto;
@@ -41,9 +40,9 @@
     width: 100%;
 }
 
-.headerContentSpacer{
+.headerWrapper{
     width: auto;
-    height: 110px; //Muse be the same size of the header
+    height: 110px; 
     position: relative;
     display: block;
 }

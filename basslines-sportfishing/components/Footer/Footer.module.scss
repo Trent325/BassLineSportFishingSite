@@ -1,0 +1,40 @@
+.FooterParent{
+    width: auto;
+    height: 150px;
+    position: relative;
+    display: flex;
+    background-color: #ebab81;
+
+}
+.FootLogo img{
+    height: 110px;
+    width: auto;
+    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fbLogo img{
+
+    height: 110px;
+    width: auto;
+    position: relative;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 40px;
+
+
+}
+
+.contact{
+    height: 55px;
+    width: auto;
+    top: 50%;
+    transform: translateY(50%);
+    padding-left: 1000px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
