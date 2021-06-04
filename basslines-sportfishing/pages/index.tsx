@@ -10,9 +10,7 @@ const Home: NextPage =() => {
 
     <div>
       <Header/>
-        <div>
           <DroneShot/>
-        </div>
           <div>
             <HomePageIntro/>
           </div>

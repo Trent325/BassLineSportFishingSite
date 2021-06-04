@@ -1,0 +1,51 @@
+.video{
+    width: 100%;
+    height: calc(85vh - 140px);
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+
+.videoIteslf{
+    min-width: 100vw;
+    min-height: 85vh;
+    position: absolute;
+    display: block;
+    right: 0px;
+    right: 0;
+    top: -0px;
+}
+.card{
+    position: relative;
+    width: auto;
+    min-height: 1200px;
+    background-color: white;
+    display: block;
+}
+.cardImg{
+    position: relative;
+    display: block;
+    width: auto;
+    height: 1200px;
+    background-image: url("../../public/BoatInInlet.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.cardText{
+    position: relative;
+    display: block;
+    width: auto;
+    background-color: #ebab81;
+    height: 600px;
+    width: auto;
+    
+}
+.cardText p{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    padding: 5px 30px;
+}

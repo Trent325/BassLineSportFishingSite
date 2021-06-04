@@ -9,15 +9,15 @@
 }
 .textWrapper{
 
-    transform: translateY(-50%, -50%);
+    top: 50%;
+    transform: translateY(-50%);
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 25px;
+    font-size: 40px;
     font-style: italic;
     font-weight: bolder;
     position: relative;
     display: block;
-    padding-top: 100px;
 }
 .Charter{
     position: relative;
@@ -25,53 +25,84 @@
     background-color:white;
     box-shadow: 5px 5px 5px #ebab81;
     width: auto;
-    height: 400px;
-    transform: translateY(-50%,-50%);
+    height: 600px;
+    top: 50%;
+    transform: translateY(-50%);
+    
 }
 .textWrapperHeader{
-
-    transform: translateY(-50%, -50%);
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 25px;
+    font-size: 40px;
     font-style: italic;
-    font-weight:600;
+    font-weight: 600;
     position: relative;
     display: block;
-    padding-top: 50px;
+}
+.textWrapperHeader p{
+    position: relative;
+    display: block;
+    font-size: 30px;
 }
 
 .img{
     position: relative;
     width: auto;
-    height: 400px;
+    height: 1500px;
     box-shadow: 5px 5px 5px #ebab81;
-    background-color: black;
-
+    background-image: url('../../public/HomePage2.jpg');
+    background-size: cover;
+    background-position: center;
+   
 }
 .imgWrapper{
     position: relative;
     display: block;
     object-fit: cover;
 }
+
 .card{
     position: relative;
     width: auto;
-    height: 600px;
+    min-height: 1200px;
     background-color: white;
+    display: flex;
 }
 .cardImg{
-    position: absolute;
-    width: 600px;
-    height: 600px;
+    position: relative;
+    display: inline-block;
+    width: auto;
     padding-right: 300px;
+    flex: 1;
+    background-image: url("../../public/TrentWithFish.PNG");
+    background-size: cover;
+    background-position: center;
     
 }
 .cardText{
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    padding-left: 300px;
+    position: relative;
+    display: inline-block;
+    width: auto;
     background-color: #ebab81;
+    flex: 1;
 }
 
+.cardText p{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    padding: 5px 30px;
+}
+
+.cardImgOne{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding-right: 300px;
+    flex: 1;
+    background-image: url("../../public/Review2.png");
+    background-size: cover;
+    background-position: center;
+}

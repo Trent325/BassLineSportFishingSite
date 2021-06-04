@@ -48,10 +48,9 @@
 .cardCol img{
     width: 100%;
     height: auto;
-    min-height: 100%;
     min-width: 100%;
     position: relative;
-    display: block;
+    display: inline-block;
     float: right;
     right: 0;
     box-shadow: 5px 5px 5px #ebab81
@@ -65,7 +64,7 @@
 }
 .body{
     font-family: 'Permanent Marker', cursive;
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 20px;
     
 }
