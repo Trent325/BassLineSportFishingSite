@@ -11,21 +11,36 @@ const Header: React.FC =() =>{
                     <img src = "/basslineslogo.PNG" alt="Bass Lines logo"></img>
                 </span>
                 <span className={style.HeaderButtonWrapper}>
+                    <a href = "/">
                     <div className={style.HeaderButton}>
                     Home
                     </div>
-                    <div className={style.HeaderButton}>
-                    Meet The Crew 
-                    </div>
+                    </a>
+                    <a href = "crew">
+                        <div className={style.HeaderButton}>
+                        Meet The Crew 
+                        </div>
+                    </a>
+                    <a href = "OurBoat">
                     <div className={style.HeaderButton}>
                     Our Boat
                     </div>
+                    </a>
+                    <a href = "OurTrips">
                     <div className={style.HeaderButton}>
-                     Our Trips
+                     Gallery
                     </div>
+                    </a>
+                    <a href ="Report">
+                    <div className={style.HeaderButton}>
+                    Fishing Report 
+                    </div>
+                    </a>
+                    <a href ="BookATrip">
                     <div className={style.HeaderButton}>
                     Book a trip 
                     </div>
+                    </a>
                 </span>
             </div>
 

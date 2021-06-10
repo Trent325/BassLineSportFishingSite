@@ -26,8 +26,19 @@ const BoatPageIntro: React.FC =() =>{
                 </div>
 
                 <div>
+                <div className = {style.container}>
+
+                    <div className = {style.containerImg}> </div>
+                    <div className = {style.containerTwo}> </div>
+
+                </div>
                     
                 </div>
+
+                <div className = {style.button}>
+               <h1><a href = "OurTrips">Look At Our Trips</a></h1>
+
+           </div>
             
                 
             

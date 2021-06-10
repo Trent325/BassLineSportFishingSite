@@ -12,7 +12,7 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker';
     font-size: 40px;
     font-style: italic;
     font-weight: bolder;
@@ -23,27 +23,30 @@
     position: relative;
     display: block;
     background-color:white;
-    box-shadow: 5px 5px 5px #ebab81;
+    
     width: auto;
-    height: 600px;
-    top: 50%;
-    transform: translateY(-50%);
+    height: 300px;
+ 
     
 }
 .textWrapperHeader{
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
+    font-size: 60px;
     font-style: italic;
     font-weight: 600;
     position: relative;
     display: block;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .textWrapperHeader p{
     position: relative;
     display: block;
-    font-size: 30px;
+    font-size: 40px;
+    
 }
+
 
 .img{
     position: relative;
@@ -65,7 +68,7 @@
     position: relative;
     width: auto;
     min-height: 1200px;
-    background-color: white;
+    background-color: #ebab81;
     display: flex;
 }
 .cardImg{
@@ -85,6 +88,7 @@
     width: auto;
     background-color: #ebab81;
     flex: 1;
+    font-size: 30px;
 }
 
 .cardText p{
@@ -92,8 +96,32 @@
     display: inline-block;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 30px;
+    font-size: 40px;
     padding: 5px 30px;
+}
+.cardText b{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 300px;
+    padding-left: 20px;
+    
+}
+.cardText body{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 400px;
+    padding-left: 20px;
+    
+}
+.cardText header{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 400px;
+    padding-left: 20px;
+    
 }
 
 .cardImgOne{
@@ -106,3 +134,42 @@
     background-size: cover;
     background-position: center;
 }
+.reviewintro{
+    position: relative;
+    width: auto;
+    min-height: 350px;
+    background-color: #ebab81;
+    
+}
+.reviewintro p{
+    position: relative;
+    display: block;
+    font-size: 40px;
+    padding-top: 175px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.cardImgtwo{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding-right: 300px;
+    flex: 1;
+    background-image: url("../../public/reviewimage2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.button{
+    position: relative;
+    display: block;
+    background-color: white;
+    width: auto;
+    height: 200px;
+}
+.button h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+

@@ -1,0 +1,79 @@
+.intro{
+    position: relative;
+    display: block;
+    background-color: white;
+    width: auto;
+    height: 400px;
+    box-shadow: 5px 5px 5px #ebab81;
+}
+.intro p{
+    position: relative;
+    display: block;
+    font-size: 60px;
+    padding-top: 175px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.Before{
+    position: relative;
+    display: flex;
+    width: auto;
+    height: 1200px;
+    box-shadow: 5px 5px 5px #ebab81;
+}
+
+.WhatToBring{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    background-color: #ebab81;
+    flex: 1;
+    font-size: 40px;
+    
+    
+}
+
+.WhatToBring p{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    padding: 5px 30px;
+    padding-bottom: 300px;
+}
+
+.charterPolicy{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    background-color: #ebab81;
+    flex: 1;
+    font-size: 30px;
+    
+}
+.charterPolicy p{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    padding-bottom: 200px;
+    
+}
+.WhatToBring h1 {
+    text-align: center;
+  }
+.charterPolicy h1 {
+    text-align: center;
+  }
+.formContainer{
+    position: relative;
+    display: block;
+    width: auto;
+    height: 4000px;
+    background-color: white;
+}
+

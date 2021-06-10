@@ -49,3 +49,45 @@
     font-size: 30px;
     padding: 5px 30px;
 }
+.container{
+    position: relative;
+    width: auto;
+    min-height: 1200px;
+    background-color: white;
+    display: flex;
+}
+.containerImg{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding-right: 300px;
+    flex: 1;
+    background-image: url("../../public/BoatAtMech.PNG");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.containerTwo{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding-right: 300px;
+    flex: 1;
+    background-image: url("../../public/BoatInSlip.PNG");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.button{
+    position: relative;
+    display: block;
+    background-color: white;
+    width: auto;
+    height: 200px;
+}
+.button h1{
+    text-align: center;
+    font-size: 80px;
+}
