@@ -1,40 +1,76 @@
 .FooterParent{
     width: auto;
-    height: 150px;
     position: relative;
-    display: flex;
     background-color: #ebab81;
-
+    @media screen and (min-width: 1000px){ //larger
+        display: flex;
+        height: 150px;
+    }
+    @media screen and (max-width: 1000px){ //smaller
+        display: block;
+        height: auto;
+    }
 }
+
+.footerCol{
+    @media screen and (min-width: 1000px){ //larger
+        width: auto;
+        height: 150px;
+        position: relative;
+        display: inline-block;
+        flex: 1;
+    }
+    @media screen and (max-width: 1000px){ //smaller
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+.footerCol:nth-child(2){
+    @media screen and (min-width: 1000px){ //larger
+        text-align: right;
+    }
+}
+
 .FootLogo img{
-    height: 110px;
+    height: 100px;
     width: auto;
     position: relative;
-    display: block;
-    top: 50%;
-    transform: translateY(-50%);
+    display: inline-block;
+    @media screen and (min-width: 1000px){ //larger
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 .fbLogo img{
-
-    height: 110px;
+    height: 100px;
     width: auto;
     position: relative;
-    display: block;
-    top: 50%;
-    transform: translateY(-50%);
-    padding-left: 40px;
-
-
+    display: inline-block;
+    @media screen and (min-width: 1000px){ //larger
+        padding-left: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 .contact{
     height: 55px;
     width: auto;
-    top: 50%;
-    transform: translateY(50%);
-    padding-left: 1900px;
+    position: relative;
+    display: inline-block;
     font-family: 'Permanent Marker', cursive;
+    padding-right: 20px;
+    color: black;
     font-size: 30px;
     font-weight: bold;
+    @media screen and (min-width: 1000px){ //larger
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }

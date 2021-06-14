@@ -1,26 +1,35 @@
-.parent{
-    height: auto;
-    width: auto;
-    position: relative;
-    display: block;
-}
 
 .card{
     height: auto;
     width: auto;
     position: relative;
     display: flex;
-    box-shadow: 5px 5px 5px #ebab81;
+    @media  screen and(min-width: 1200px) {
+        display: flex;
+    }
+    @media  screen and(max-width: 1200px) {
+        display: block;
+    }
+    
 }
 
 .cardCol{
     height: auto;
-    min-height: 900px;
     width: auto;
     position: relative;
     display: inline-block;
     flex: 1;
-    box-shadow: 5px 5px 5px #ebab81;
+    background-color: #ebab81;
+     @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 600px;
+        position: relative;
+        display: block;
+    }
 }
 
 .cardText{
@@ -29,6 +38,8 @@
     padding: 80px;
     top: 50%;
     transform: translateY(-50%);
+    flex: 1;
+    height: auto;
 }
 
 .imageWrapper{
@@ -37,12 +48,21 @@
     position: relative;
     display: block;
     overflow: hidden;
+     @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 600px;
+        position: relative;
+        display: block;
+    }
 }
 
 .cardCol img{
     width: 100%;
     height: auto;
-    min-height: 100%;
     min-width: 100%;
     position: relative;
     display: block;
@@ -57,5 +77,14 @@
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
     padding-top: 20px;
+    
+}
+.cardText{
+    position: relative;
+    display: block;
+    background-color: #ebab81;
+    width: auto;
+    height: auto;
+    flex: 1;
     
 }

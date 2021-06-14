@@ -72,7 +72,7 @@ const BookATrip: React.FC =() => {
             
 
             <div className = {style.formContainer}>
-                <form id="contact" method="POST" action="send" enctype="multipart/form-data">
+                <form id="contact" method="POST" action="send" >
 
                     <label htmlFor="Fname">First Name: </label>
                     <input type="text" name="Fname"></input>

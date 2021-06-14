@@ -3,7 +3,7 @@
     width: auto;
     position: relative;
     display: block;
-    background-color: #ebab81;
+    background-color: white;
     box-shadow: 5px 5px 5px #ebab81;
 }
 .header{
@@ -22,4 +22,13 @@
     padding-right: 60px;
     text-align: center;
 
+}
+.Box{
+    position: relative;
+    display: block;
+    background-color: white;
+    
+    width: auto;
+    height: auto;
+    transform: translateY(-50%,-50%);
 }

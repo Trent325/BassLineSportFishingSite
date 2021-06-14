@@ -4,13 +4,12 @@
     background-color: #ebab81;
     box-shadow: 5px 5px 5px #ebab81;
     width: auto;
-    height: 250px;
+    height: auto;
     transform: translateY(-50%,-50%);
 }
 .textWrapper{
 
     top: 50%;
-    transform: translateY(-50%);
     text-align: center;
     font-family: 'Permanent Marker';
     font-size: 40px;
@@ -25,7 +24,7 @@
     background-color:white;
     
     width: auto;
-    height: 300px;
+    height: auto;
  
     
 }
@@ -38,12 +37,12 @@
     position: relative;
     display: block;
     top: 50%;
-    transform: translateY(-50%);
+    
 }
 .textWrapperHeader p{
     position: relative;
     display: block;
-    font-size: 40px;
+    font-size: 30px;
     
 }
 
@@ -69,17 +68,30 @@
     width: auto;
     min-height: 1200px;
     background-color: #ebab81;
-    display: flex;
+    @media  screen and(min-width: 1200px) {
+        display: flex;
+    }
+    @media  screen and(max-width: 1200px) {
+        display: block;
+    }
 }
 .cardImg{
     position: relative;
-    display: inline-block;
     width: auto;
     padding-right: 300px;
-    flex: 1;
     background-image: url("../../public/TrentWithFish.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 600px;
+        position: relative;
+        display: block;
+    }
     
 }
 .cardText{
@@ -87,23 +99,42 @@
     display: inline-block;
     width: auto;
     background-color: #ebab81;
-    flex: 1;
-    font-size: 30px;
+    font-size: 10px;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+    }
+    @media  screen and(max-width: 1200px) {
+        height: auto;
+        position: relative;
+        display: block;
+    }
+}
+
+.cardTextWrapper{
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
+    @media screen and (min-width: 1200px){
+        transform: translateY(-50%);
+        top: 50%;
+    }
 }
 
 .cardText p{
     position: relative;
     display: inline-block;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 40px;
+    
+    
+    font-size: 20px;
     padding: 5px 30px;
 }
 .cardText b{
     position: relative;
     display: inline-block;
     font-size: 40px;
-    padding-top: 300px;
     padding-left: 20px;
     
 }
@@ -111,7 +142,7 @@
     position: relative;
     display: inline-block;
     font-size: 40px;
-    padding-top: 400px;
+    padding-top: 600px;
     padding-left: 20px;
     
 }
@@ -133,6 +164,17 @@
     background-image: url("../../public/Review2.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 600px;
+        position: relative;
+        display: block;
+    }
+    
 }
 .reviewintro{
     position: relative;
@@ -159,6 +201,17 @@
     background-image: url("../../public/reviewimage2.jpg");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 600px;
+        position: relative;
+        display: block;
+    }
+    
 }
 .button{
     position: relative;
@@ -169,7 +222,7 @@
 }
 .button h1{
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 
