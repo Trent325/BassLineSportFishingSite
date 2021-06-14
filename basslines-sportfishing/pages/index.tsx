@@ -15,8 +15,6 @@ const Home: NextPage =() => {
             <HomePageIntro/>
           </div>
       <Footer/>
-      
-      
     </div>
     
     
