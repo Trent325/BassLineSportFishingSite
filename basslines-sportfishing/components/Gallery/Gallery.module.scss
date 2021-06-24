@@ -3,7 +3,17 @@
     width: auto;
     min-height: 1100px;
     background-color: white;
-    display: flex;
+    
+    @media screen and(min-width:1200px) {
+        display: flex;
+        
+    }
+
+    @media screen and(max-width:1200px) {
+        display: block;
+        height: auto;
+        
+    }
 }
 .containerImg{
     position: relative;
@@ -15,6 +25,17 @@
     background-image: url("../../public/Image1.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
     
 
 }
@@ -27,6 +48,17 @@
     background-image: url("../../public/image11.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
     
 
 }
@@ -39,6 +71,17 @@
     background-image: url("../../public/image3.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
     
 
 }
@@ -51,6 +94,17 @@
     background-image: url("../../public/image4.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
     
 
 }
@@ -63,6 +117,17 @@
     background-image: url("../../public/image9.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
     
 
 }
@@ -75,6 +140,17 @@
     background-image: url("../../public/image6.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
     
 
 }
@@ -87,6 +163,17 @@
     background-image: url("../../public/image7.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg7{
     position: relative;
@@ -97,6 +184,17 @@
     background-image: url("../../public/image8.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg8{
     position: relative;
@@ -107,6 +205,17 @@
     background-image: url("../../public/image5.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg9{
     position: relative;
@@ -117,6 +226,17 @@
     background-image: url("../../public/image10.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg10{
     position: relative;
@@ -127,6 +247,17 @@
     background-image: url("../../public/image2.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg11{
     position: relative;
@@ -137,6 +268,17 @@
     background-image: url("../../public/image12.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg12{
     position: relative;
@@ -147,6 +289,17 @@
     background-image: url("../../public/image13.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg13{
     position: relative;
@@ -157,6 +310,17 @@
     background-image: url("../../public/image14.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg14{
     position: relative;
@@ -170,6 +334,17 @@
     background-size: cover;
     background-position: center;
     padding-right: 300px;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg15{
     position: relative;
@@ -180,6 +355,17 @@
     background-image: url("../../public/image17.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg16{
     position: relative;
@@ -190,6 +376,17 @@
     background-image: url("../../public/image16.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .containerImg17{
     position: relative;
@@ -200,6 +397,17 @@
     background-image: url("../../public/image18.PNG");
     background-size: cover;
     background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: block;
+        flex: 1;
+       
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 400px;
+        position: relative;
+        display: block;
+    }
 }
 .cardText{
     position: relative;
@@ -223,6 +431,12 @@
     background-color: white;
     width: auto;
     height: 200px;
+   
+    @media  screen and(max-width: 1200px) {
+        height: 500px;
+        position: relative;
+        display: block;
+    }
 }
 .button h1{
     text-align: center;

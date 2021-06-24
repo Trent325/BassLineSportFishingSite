@@ -6,9 +6,10 @@ const Crew2: React.FC = () => {
         <div className={style.parent}>
             <div className={style.card}>
                 <div className={style.cardCol}>
+                    <div className = {style.imageWrapper}>
                     
                         <img src="willy.jpg" alt="Picture of Captain Bill"/>
-                    
+                        </div>
                 </div>
                 <div className={style.cardCol}>
                     <div className={style.cardText}>

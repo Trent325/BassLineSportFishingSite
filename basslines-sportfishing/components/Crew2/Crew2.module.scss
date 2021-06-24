@@ -18,6 +18,15 @@
     }
     @media  screen and(max-width: 1200px) {
         display:inline-block;
+       
+    }
+    @media  screen and(max-width: 400px) {
+        display:inline-block;
+        height: 1300px;
+    }
+    @media  screen and(max-width: 500px) {
+        display:inline-block;
+        height: 1000px;
     }
 }
 
@@ -36,9 +45,23 @@
         flex: 1;
     }
     @media  screen and(max-width: 1200px) {
-        height: auto;
+        height: 500px;
         position: relative;
         display: block;
+        
+    }
+    @media  screen and(max-width: 1000px) {
+        height: 500px;
+        position: relative;
+        display: block;
+        
+    }
+    @media  screen and(max-width: 500px) {
+        height: 500px;
+        position: relative;
+        display: block;
+       
+        
     }
 
 }
@@ -60,23 +83,22 @@
 .cardCol img{
     width: 100%;
     height: auto;
-
     position: relative;
     display: inline-block;
-    float: right;
     right: 0;
-    flex:1;
+    
 
-    @media  screen and(min-width: 1200px) {
-        position: relative;
-        display: inline-block;
-        flex: 1;
-    }
-    @media  screen and(max-width: 1200px) {
-        height: 600px;
-        position: relative;
+    @media  screen and(max-width:1200px) {
         display: block;
+        
+        
     }
+    @media  screen and(min-width:1200px) {
+        flex:1;
+        
+    }
+
+  
     
     
 }
@@ -87,9 +109,13 @@
     font-weight: bold;  
 }
 .body{
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', ;
     font-size: 30px;
     padding-top: 20px;
+    @media screen and(max-width:1200px) {
+        font-size: 20px;
+        
+    }
     
 }
 .button{
@@ -97,7 +123,7 @@
     display: block;
     background-color: white;
     width: auto;
-    height: 200px;
+    height: 250px;
 }
 .button h1{
     text-align: center;

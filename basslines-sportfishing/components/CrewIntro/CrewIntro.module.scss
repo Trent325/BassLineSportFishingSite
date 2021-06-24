@@ -21,14 +21,17 @@
     padding-left: 60px;
     padding-right: 60px;
     text-align: center;
+    @media screen and(max-width:1200px){
+        font-size: 15px;
+        
+    }
 
 }
 .Box{
     position: relative;
     display: block;
     background-color: white;
-    
     width: auto;
-    height: auto;
-    transform: translateY(-50%,-50%);
+    height: 320px;
+    
 }

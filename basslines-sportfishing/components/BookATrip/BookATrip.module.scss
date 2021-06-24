@@ -3,46 +3,65 @@
     display: block;
     background-color: white;
     width: auto;
-    height: 400px;
-    box-shadow: 5px 5px 5px #ebab81;
+    height: auto;
+    
 }
 .intro p{
     position: relative;
     display: block;
     font-size: 60px;
-    padding-top: 175px;
+    padding-top: 100;
     text-align: center;
     font-weight: bold;
+    
     
 }
 
 .Before{
     position: relative;
-    display: flex;
     width: auto;
-    height: 1200px;
+    height: auto;
     box-shadow: 5px 5px 5px #ebab81;
+    @media  screen and(min-width: 1200px) {
+        display: flex;
+    }
+    @media  screen and(max-width: 1200px) {
+        display: block;
+    }
 }
 
 .WhatToBring{
     position: relative;
     display: inline-block;
     width: auto;
+    height: auto;
     background-color: #ebab81;
     flex: 1;
-    font-size: 40px;
-    
-    
+    font-size: 30px;
+   
 }
+.select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+    
+    
+
 
 .WhatToBring p{
     position: relative;
     display: inline-block;
     top: 50%;
-    transform: translateY(-50%);
     font-size: 40px;
     padding: 5px 30px;
     padding-bottom: 300px;
+    text-align: center;
+    
 }
 
 .charterPolicy{
@@ -50,15 +69,24 @@
     display: inline-block;
     width: auto;
     background-color: #ebab81;
-    flex: 1;
     font-size: 30px;
-    
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+    }
+    @media  screen and(max-width: 1200px) {
+        height: auto;
+        position: relative;
+        display: block;
+    }
 }
+    
+
 .charterPolicy p{
     position: relative;
     display: inline-block;
     top: 50%;
-    transform: translateY(-50%);
     font-size: 40px;
     padding-bottom: 200px;
     
@@ -70,11 +98,14 @@
     text-align: center;
   }
 .formContainer{
+    padding-top: 60px;
     position: relative;
     display: block;
     width: auto;
-    height: 4000px;
+    height: auto;
     background-color: #ebab81;
+    text-align: center;
+    font-size: 20px;
 }
 .textWrapper{
 
@@ -94,7 +125,7 @@
     position: relative;
     display: block;
     font-size: 30px;
-    padding-top: 175px;
+    padding-top: 50px;
     text-align: center;
     font-weight: bold;
     
@@ -116,10 +147,17 @@
 .formWhatDoYouWantToGoFor{
     position: relative;
     display: block;
+    text-align: center;
 }
 .formWhatDoYouWantToGoFor h1{
     text-align: center;
     font-size: 20px;
+}
+.cardTextWrapper{
+    position: relative;
+    display: block;
+    width: auto;
+    height: auto;
 }
 
 

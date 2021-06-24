@@ -1,8 +1,32 @@
-import React from "react";
+import React, {useState, FormEvent} from "react";
 import style from "./BookATrip.module.scss";
+import axios from "axios"
+import formidable from 'formidable';
 
-const BookATrip: React.FC =() => {
-    return(
+
+function BookATrip() {
+    
+
+        const [sent, setSent] = useState(false)
+        const [text, setText] = useState("")
+       
+
+        const handleSend = (event: FormEvent<HTMLFormElement>) => {
+            event.preventDefault();
+            const obj = { email: "jfaasflk" };
+            void fetch("/api/email", {
+                method: "POST",
+                mode: "cors",
+                credentials: "same-origin",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(obj),
+            });
+        }
+
+        return(
+
         <div>
             <div className = {style.intro}>
                 <p>
@@ -14,6 +38,7 @@ const BookATrip: React.FC =() => {
 
             <div className = {style.Before}>
                 <div className = {style.WhatToBring}>
+                    <div className = {style.cardTextWrapper}>
                     <h1>What To Bring</h1>
                     <p>
                     
@@ -27,9 +52,13 @@ const BookATrip: React.FC =() => {
                         acceptable)</li> 
                     </p>
 
+                   
+                    </div>
+
                 </div>
                 
                 <div className = {style.charterPolicy}>
+                    <div className = {style.cardTextWrapper}>
                     <h1>Charter Policy</h1>
                     <p>
                         <li>Cancellations caused by weather are to be rebooked at a later date agreed upon by both
@@ -45,7 +74,7 @@ const BookATrip: React.FC =() => {
                         
 
                     </p>
-
+                    </div>
                 </div>
 
             </div>
@@ -72,41 +101,57 @@ const BookATrip: React.FC =() => {
             
 
             <div className = {style.formContainer}>
-                <form id="contact" method="POST" action="send" >
-
-                    <label htmlFor="Fname">First Name: </label>
-                    <input type="text" name="Fname"></input>
-                    <label htmlFor="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname"></input>
+                {!sent ?(
+                <form onSubmit={handleSend} method="post">
+                    <div className = {style.select}>
+                        <label htmlFor="Fname" >First Name: </label>
+                        <input type="text" name="Fname" required></input>
+                        <label htmlFor="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" value={text} onChange = {(e) => setText(e.target.value)} required></input>
+                    </div>
 
                     <div className = {style.formEmail}>
                         <label htmlFor="email">Email:</label>
-                        <input type="text" id="email" name="email"></input>
+                        <input type="text" id="email" name="email" required></input>
                     </div>
 
                     <div className = {style.formPhone}>
                         <label htmlFor="phone">Phone:</label>
-                        <input type="text" id="Phone" name="phone"></input>
+                        <input type="text" id="Phone" name="phone" required></input>
                     </div>
 
                     <div className = {style.formWhatDoYouWantToGoFor}>
                         <h1> What Do You Want To Fish For</h1>
+                        <div className = {style.formWhatDoYouWantToGoFor}>
                         <input type="radio" id="Bass" name="Bass"></input>
                         <label htmlFor="male">Bass</label>
+                        </div>
+                        <div className = {style.formWhatDoYouWantToGoFor}>
                         <input type="radio" id="MidShore" name="MidShore"></input>
                         <label htmlFor="MidShore">Mid-Shore Tuna</label>
+                        </div>
+                        <div className = {style.formWhatDoYouWantToGoFor}></div>
                         <input type="radio" id="OffShore" name="OffShore"></input>
                         <label htmlFor="OffShore">Off-Shore Tuna</label>
+                        
+                        <div className = {style.formWhatDoYouWantToGoFor}></div>
                         <input type="radio" id="BlackFish" name="BlackFish"></input>
                         <label htmlFor="BlackFish">Black Fish</label>
 
                     </div>
 
                     <input type="submit" value="Submit"></input>
+
+                    <script>
+                        
+                    </script>
                 </form>
+                ): (
+                    <h1> Email sent</h1>
+                )}
 
             </div>
-
+            
         </div>
     )
     };

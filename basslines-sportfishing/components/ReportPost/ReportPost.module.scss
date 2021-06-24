@@ -1,0 +1,65 @@
+.ImgContainer{
+    display: inline-block;
+    position: relative;
+    width:auto;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex:1;
+}
+.textBox{
+    position: relative;
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+   
+    flex:1;
+}
+.textWrapper{
+    
+   
+    text-align: center;
+    font-family: 'Permanent Marker';
+    font-size: 40px;
+    
+    
+    position: relative;
+    display: inline-block;
+    @media screen and(max-width:1200px){
+        font-size: 30px;
+        
+    }
+}
+.textBoxHeader{
+    text-align: center;
+    font-family: 'Permanent Marker';
+    font-size: 60px;
+    
+    font-weight: 600;
+    position: relative;
+    display: block;
+    top: 50%;
+    background-color: #ebab81;
+   
+    
+}
+.container{
+    
+        position: relative;
+        width: auto;
+        
+       
+        @media  screen and(min-width: 1200px) {
+            display: flex;
+            
+            
+        }
+        @media  screen and(max-width: 1200px) {
+            display: block;
+        }
+    
+
+}

@@ -3,8 +3,12 @@ import style from './DroneShot.module.scss';
 
 const DroneShot: React.FC =() => {
     return(
-        <div className ={style.video}>  
-            <video src = "../basslines.mp4" className={style.videoIteslf} autoPlay muted loop playsInline></video>
+        <div className = {style.headerUnit}>
+            <div className={style.videoContainer}>
+                <video className={style.video} autoPlay muted loop>
+                    <source src = "basslines.mp4" type="video/mp4"></source>
+                </video>
+            </div>
         </div>
     )
 };

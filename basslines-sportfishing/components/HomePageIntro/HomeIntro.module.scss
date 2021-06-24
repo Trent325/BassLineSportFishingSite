@@ -2,13 +2,11 @@
     position: relative;
     display: block;
     background-color: #ebab81;
-    box-shadow: 5px 5px 5px #ebab81;
     width: auto;
     height: auto;
     transform: translateY(-50%,-50%);
 }
 .textWrapper{
-
     top: 50%;
     text-align: center;
     font-family: 'Permanent Marker';
@@ -17,6 +15,10 @@
     font-weight: bolder;
     position: relative;
     display: block;
+    @media screen and(max-width:1200px){
+        font-size: 30px;
+        
+    }
 }
 .Charter{
     position: relative;
@@ -37,6 +39,7 @@
     position: relative;
     display: block;
     top: 50%;
+   
     
 }
 .textWrapperHeader p{
@@ -51,10 +54,14 @@
     position: relative;
     width: auto;
     height: 1500px;
-    box-shadow: 5px 5px 5px #ebab81;
     background-image: url('../../public/HomePage2.jpg');
     background-size: cover;
     background-position: center;
+
+    @media screen and(max-width:1200px){
+        height: 600px;
+        
+    }
    
 }
 .imgWrapper{
@@ -66,10 +73,11 @@
 .card{
     position: relative;
     width: auto;
-    min-height: 1200px;
+    
     background-color: #ebab81;
     @media  screen and(min-width: 1200px) {
         display: flex;
+        min-height: 1200px;
     }
     @media  screen and(max-width: 1200px) {
         display: block;
@@ -86,6 +94,7 @@
         position: relative;
         display: inline-block;
         flex: 1;
+        
     }
     @media  screen and(max-width: 1200px) {
         height: 600px;

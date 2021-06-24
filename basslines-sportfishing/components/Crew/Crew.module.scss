@@ -3,12 +3,13 @@
     height: auto;
     width: auto;
     position: relative;
-    display: flex;
+   
     @media  screen and(min-width: 1200px) {
         display: flex;
     }
     @media  screen and(max-width: 1200px) {
         display: block;
+        height:1340px;
     }
     
 }
@@ -28,7 +29,7 @@
     @media  screen and(max-width: 1200px) {
         height: 600px;
         position: relative;
-        display: block;
+        display: inline-block;
     }
 }
 
@@ -44,20 +45,12 @@
 
 .imageWrapper{
     width: auto;
-    height: 900px;
+    height: auto;
     position: relative;
     display: block;
     overflow: hidden;
-     @media  screen and(min-width: 1200px) {
-        position: relative;
-        display: inline-block;
-        flex: 1;
-    }
-    @media  screen and(max-width: 1200px) {
-        height: 600px;
-        position: relative;
-        display: block;
-    }
+
+     
 }
 
 .cardCol img{
@@ -77,6 +70,11 @@
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
     padding-top: 20px;
+
+    @media screen and(max-width: 1200px){
+        font-size: 20px;
+        
+    }
     
 }
 .cardText{

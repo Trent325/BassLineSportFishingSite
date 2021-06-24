@@ -1,47 +1,51 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './Header.module.scss';
 
 const Header: React.FC =() =>{
+
+    //Use useState to control the status of the header
+    const [mobileShow, setMobileShow] = useState(false);
+
     return(
 
         <div>
 
             <div className={style.headerParent}>
-                <span className ={style.HeaderLogo}>
-                    <img src = "/basslineslogo.PNG" alt="Bass Lines logo"></img>
-                </span>
-                <span className={style.HeaderButtonWrapper}>
-                    <a href = "/">
-                    <div className={style.HeaderButton}>
-                    Home
-                    </div>
-                    </a>
-                    <a href = "crew">
-                        <div className={style.HeaderButton}>
-                        Meet The Crew 
+                <div className={style.FlexBox}>
+                        <div className = {style.boxCol}>
+                            <div className ={style.HeaderLogo} >
+                                <img src = "/basslineslogo.PNG"></img>                           </div>
+                            </div>
+                    <div className = {style.boxCol}>
+                        <div className={style.mobileButton} onClick={() => setMobileShow(!mobileShow) }>
+                            <div className={style.hamLine}></div>
+                            <div className={style.hamLine}></div>
+                            <div className={style.hamLine}></div>  
                         </div>
+                </div>
+                
+                <div className={mobileShow ? style.HeaderButtonWrapperOpen : style.HeaderButtonWrapper}>
+                    <a href = "/" className={style.HeaderButton}>
+                        Home
                     </a>
-                    <a href = "OurBoat">
-                    <div className={style.HeaderButton}>
-                    Our Boat
-                    </div>
+                    <a href = "crew" className={style.HeaderButton}>
+                        Meet The Crew
                     </a>
-                    <a href = "OurTrips">
-                    <div className={style.HeaderButton}>
-                     Gallery
-                    </div>
+                    <a href = "OurBoat" className={style.HeaderButton}>
+                        Our Boat
                     </a>
-                    <a href ="Report">
-                    <div className={style.HeaderButton}>
-                    Fishing Report 
-                    </div>
+                    <a href = "OurTrips" className={style.HeaderButton}>
+                        Gallery
                     </a>
-                    <a href ="BookATrip">
-                    <div className={style.HeaderButton}>
-                    Book a trip 
-                    </div>
+                    <a href ="Report" className={style.HeaderButton}>
+                        Fishing Report
                     </a>
-                </span>
+                    <a href ="BookATrip" className={style.HeaderButton}>
+                        Book a trip
+                    </a>
+                </div>
+                
+            </div>
             </div>
 
             <div className={style.headerContentSpacer}></div>
