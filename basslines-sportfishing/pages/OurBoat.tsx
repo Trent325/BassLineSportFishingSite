@@ -8,6 +8,7 @@ const OurBoat: NextPage =() => {
     return(
         <div>
             <Header/>
+                <title> BassLines Boat | BassLines Sport Fishing</title>
             <BoatPageIntro/>
 
             <Footer/>

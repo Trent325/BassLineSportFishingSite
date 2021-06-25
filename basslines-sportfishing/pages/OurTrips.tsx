@@ -7,6 +7,7 @@ const OurTrips: NextPage =() => {
     return(
         <div>
             <Header/>
+                <title>Our Trips | BassLines Sport Fishing</title>
         
             <Gallery/>
 

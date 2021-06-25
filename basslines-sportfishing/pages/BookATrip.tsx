@@ -7,6 +7,9 @@ const BookATrip: NextPage =() => {
     return(
         <div>
             <Header/>
+            
+                <title>Book A trip | BassLines Sport Fishing</title>
+                
                 <BookTrip/>
             <Footer/>
 

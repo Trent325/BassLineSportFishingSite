@@ -10,6 +10,7 @@ const Home: NextPage =() => {
 
     <div>
       <Header/>
+        <title>BassLines Sport Fishing  | BassLines Sport Fishing</title>
           <DroneShot/>
           <div>
             <HomePageIntro/>

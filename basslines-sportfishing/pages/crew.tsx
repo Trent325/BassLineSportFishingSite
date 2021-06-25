@@ -11,6 +11,7 @@ const meetTheCrew: NextPage =() => {
 	return (
 		<div>
 			<Header/>
+				<title>Meet The Crew| BassLines Sport Fishing</title>
 			<main>
 				<CrewIntro/>
 				<Crew/>
