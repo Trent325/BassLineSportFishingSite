@@ -36,10 +36,8 @@ const HomePage: NextPage = () => {
     
     <>
     <Header/>
-    
       <Head>
-        <title>Next.js + Contentful</title>
-       
+        <title>Fishing Report | BassLines Sport Fishing</title>
       </Head>
       {posts.length > 0
         ? posts.map((p) => (
