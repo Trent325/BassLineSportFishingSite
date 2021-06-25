@@ -8,7 +8,7 @@ const Footer: React.FC =() =>{
             <div className = {style.FooterParent}>
                 <div className={style.footerCol}>
                     <span className = {style.FootLogo}>
-                        <img src = "/boatLogo.PNG" alt = "Bass Lines Boat Logo"></img>
+                        <img src = "/boatLogo.png" alt = "Bass Lines Boat Logo"></img>
                     </span>
                     <span className = {style.fbLogo}>
                         <a href = "https://www.facebook.com/Basslines.Sportfishing.charters/"><img src="/Facebook-logo.png"></img></a>
