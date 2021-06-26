@@ -5,8 +5,8 @@ const DroneShot: React.FC =() => {
     return(
         <div className = {style.headerUnit}>
             <div className={style.videoContainer}>
-                <video className={style.video} autoPlay muted loop>
-                    <source src = "basslines.mp4" controls playsinline type="video/mp4"></source>
+                <video className={style.video} autoPlay muted loop playsInline>
+                    <source src = "basslines.mp4"   type="video/mp4"></source>
                 </video>
             </div>
         </div>
