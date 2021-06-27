@@ -128,7 +128,7 @@
     width: auto;
     height: auto;
     @media screen and (min-width: 1200px){
-        transform: translateY(-50%);
+        
        
     }
 }
@@ -189,17 +189,21 @@
 .reviewintro{
     position: relative;
     width: auto;
-    min-height: 350px;
+    height: auto;
     background-color: #ebab81;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
     
 }
 .reviewintro p{
     position: relative;
     display: block;
+    height: auto;
     font-size: 40px;
-    padding-top: 175px;
     text-align: center;
     font-weight: bold;
+    
     
 }
 .cardImgtwo{

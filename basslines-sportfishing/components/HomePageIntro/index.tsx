@@ -23,7 +23,7 @@ const HomePageIntro: React.FC =() => {
                 </div>   
             </div>
             <div className = {style.reviewintro}>
-                <p>Hear From Our Customers</p>
+                Hear From Our Customers
                 
             </div>
             <div className = {style.card}>
