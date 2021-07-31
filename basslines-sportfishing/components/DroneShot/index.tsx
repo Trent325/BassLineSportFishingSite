@@ -12,7 +12,7 @@ const DroneShot: React.FC =() => {
                     <div className={style.landingContainerText}>
                         <h1 className={style.landingContainerTextHeading }>BassLines Sport Fishing</h1>
                     </div>
-                    <div className={style.landingContainerText}>\
+                    <div className={style.landingContainerText}>
                         <h1 className={style.landingContainerTextSubheading}>Jersey Shore Fishing Charter</h1>
 
                     </div>
