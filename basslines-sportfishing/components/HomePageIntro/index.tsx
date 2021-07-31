@@ -30,11 +30,9 @@ const HomePageIntro: React.FC =() => {
                                     Sea Bass
                                 </li>
                                 <li>
-                                    Off-Shore, For Tuna and a variety of other fish such as mahi mahi
+                                    Multi-Speice Off-Shore, For Tuna and a variety of other fish such as mahi mahi
                                 </li>
-                                <li>
-                                    In-Shore, for similar fish as Off-Shore
-                                </li>
+                                
                             </ul>
 
                     </div>
