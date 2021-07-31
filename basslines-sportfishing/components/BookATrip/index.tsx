@@ -11,14 +11,20 @@ function BookATrip() {
 
         <div>
             <div className = {style.intro}>
-                <p>
-                    Before You Come On Board...
-                </p>
-            </div>
+                <div className = {style.landingContainerContainer}>
+                    <div className = {style.landingContainerText}>
+                    <h1 className = {style.landingContainerTextSubheadingT}>
+                
+                    Before You Come On Board... </h1>
 
-            <div className = {style.Before}>
-                <div className = {style.WhatToBring}>
-                    <div className = {style.cardTextWrapper}>
+                    </div>
+                </div>
+            </div> 
+                 
+                
+
+            <div className = {style.Parent}>
+                <div className = {style.Box}>
                         <h1>What To Bring</h1>
                         <p>
                             <li>Sunglasses</li>
@@ -30,9 +36,9 @@ function BookATrip() {
                                 acceptable)</li> 
                         </p>
                     </div>
-                </div>
-                <div className = {style.charterPolicy}>
-                    <div className = {style.cardTextWrapper}>
+                  
+                <div className = {style.Box}>
+                    
                         <h1>Charter Policy</h1>
                         <p>
                             <li>Cancellations caused by weather are to be rebooked at a later date agreed upon by both
@@ -46,7 +52,36 @@ function BookATrip() {
                             <li>Please be advised if you book a full charter and not all crew members arrive you are still
                             responsible for the full fair.</li>
                         </p>
+                    
+                </div>
+            </div>
+            <div className = {style.Trips}>
+                <div className = {style.landingContainerContainer}>
+                    <div className = {style.landingContainerText}>
+                    <h1 className = {style.landingContainerTextSubheadingT}>
+                
+                    Trips We Offer</h1>
+
                     </div>
+                </div>
+            </div>
+
+            <div className = {style.Parent}>
+                <div className = {style.Box}>
+                    <h1>March-June</h1>
+                    We Will be sailing out of Harbor Side Marina. These trips will be 8 hours and are limited to six people. The striped bass fishery in the Raritan had been phenomenal for us over the years. We target these fish primarily with live bait, trolling and casting artificial lures. These trips are a great experience and family friendly. 
+
+                    <h1>June-Fall</h1>
+                    The boat will be sailing out of Clarks Landing in Point Pleasant N.J. Our Mid shore trips are limited to 70 miles offshore and are multi species. Not only do we target tuna but we will also target Mahi Mahi, shark and bottom fish depending on the conditions. These trips are typically 12 hours and are quite the experience. You can expect to see whales dolphins and many other sea creatures.
+
+                    <h1>Fall</h1>
+                    In the fall, we fish for striped bass as they migrate south and pass through our local waters. Our season typically starts fishing off long island then as the fish travel south we travel south with them, eventually fishing off south jersey. We target fall bass with live bait and by trolling
+
+                    <h1>Winter</h1>
+                    In the winter months, we target giant seabass on our offshore wrecks. These trips produce seabass to 7+ pounds and a lot of them. Our wrecks we fish are 50+ miles offshore but it is well worth the trip!
+                    Black Fish,
+
+                    We target Black fish in wrecks from 20 feet of water to 80 feet. In our opinion, they are one of the hardest fighting fish pound for pound in the ocean, and taste great too. It is a blast to fish for them and we highly recommend this trip to anyone who has not tried it before.
                 </div>
             </div>
 
@@ -63,10 +98,15 @@ function BookATrip() {
                 </p>
                 
             </div>
-            <div className = {style.intro}>
-                <p>
-                    Lets Go Fishing
-                </p>
+            <div className = {style.Fishing}>
+            <div className = {style.landingContainerContainer}>
+                    <div className = {style.landingContainerText}>
+                    <h1 className = {style.landingContainerTextSubheadingT}>
+                    Lets Go Fishing</h1>
+                
+            
+            </div>
+                </div>
             </div>
 
             <div className = {style.substitueBox}>
@@ -75,55 +115,7 @@ function BookATrip() {
                 </p>
             </div>
 
-            <div className = {style.formContainer}>
-                
-                <form  method="POST" action="send">
-                    <div className = {style.select}>
-                        <label htmlFor="Fname" >First Name: </label>
-                        <input type="text" name="Fname" required></input>
-                        <label htmlFor="lname">Last name:</label>
-                        <input type="text" id="lname" name="lname" required></input>
-                    </div>
-
-                    <div className = {style.formEmail}>
-                        <label htmlFor="email">Email:</label>
-                        <input type="text" id="email" name="email" required></input>
-                    </div>
-
-                    <div className = {style.formPhone}>
-                        <label htmlFor="phone">Phone:</label>
-                        <input type="text" id="Phone" name="phone" required></input>
-                    </div>
-
-                    <div className = {style.formWhatDoYouWantToGoFor}>
-                        <h1> What Do You Want To Fish For</h1>
-                        <div className = {style.formWhatDoYouWantToGoFor}>
-                        <input type="radio" id="Bass" name="Bass"></input>
-                        <label htmlFor="male">Bass</label>
-                        </div>
-                        <div className = {style.formWhatDoYouWantToGoFor}>
-                        <input type="radio" id="MidShore" name="MidShore"></input>
-                        <label htmlFor="MidShore">Mid-Shore Tuna</label>
-                        </div>
-                        <div className = {style.formWhatDoYouWantToGoFor}></div>
-                        <input type="radio" id="OffShore" name="OffShore"></input>
-                        <label htmlFor="OffShore">Off-Shore Tuna</label>
-                        
-                        <div className = {style.formWhatDoYouWantToGoFor}></div>
-                        <input type="radio" id="BlackFish" name="BlackFish"></input>
-                        <label htmlFor="BlackFish">Black Fish</label>
-
-                    </div>
-
-                    <input type="submit" value="Submit"></input>
-
-                    
-                </form>
-               
-                    <h1> Email sent</h1>
-                
-
-            </div>
+            
             
         </div>
     )

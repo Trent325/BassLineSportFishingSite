@@ -37,9 +37,7 @@ const Header: React.FC =() =>{
                     <a href = "OurTrips" className={style.HeaderButton}>
                         Gallery
                     </a>
-                    <a href ="Report" className={style.HeaderButton}>
-                        Fishing Report
-                    </a>
+                    
                     <a href ="BookATrip" className={style.HeaderButton}>
                         Book a trip
                     </a>

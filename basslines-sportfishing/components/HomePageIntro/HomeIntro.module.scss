@@ -1,11 +1,136 @@
 .Parent{
     position: relative;
-    display: block;
-    background-color: #ebab81;
+
+    background-color:#ebab81;
     width: auto;
     height: auto;
     transform: translateY(-50%,-50%);
+    padding: 0px 40px 40px 40px;
+    z-index: 1000;
+    @media screen and(min-width:900px){
+        display: flex;
+        
+    }
+    @media screen and(max-width:900px){
+        display: block;
+        
+    }
+
+    
 }
+
+.landingContainerContainer {
+    background-color: rgba(0, 0, 0, 0.30);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.landingContainerText {
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    display: block;
+    top: 40%;
+    transform: translateY(-40%);
+}
+.landingContainerTextHeading {
+    color: white;
+    font-size: 42px;
+    position: relative;
+    display: block;
+}
+.landingContainerTextSubheading {
+    color: white;
+    font-size: 28px;
+    padding-bottom:60px;
+    position: relative;
+    display: block;
+    text-align: center;
+    
+    @media screen and(max-width: 400px){
+        padding-bottom:70px;
+
+    }
+}
+.landingContainerTextSubheadingT {
+    color: white;
+    font-size: 28px;
+    
+    position: relative;
+    display: block;
+    text-align: center;
+    
+}
+
+
+.ReviewBox{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+   
+    background-color:  white;
+    transition: transform 1s ease;
+    @media screen and(max-width:1200px){
+        flex:1;
+        
+    }
+    @media screen and(min-width:1200px){
+        display: block;
+        
+    }
+
+}
+.PhilosphyBox{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    margin-left: 10px;
+    
+    margin-right: 10px;
+    position: relative;
+    background-color:white;
+    
+
+    
+    @media screen and(min-width:700px){
+        flex:1;
+        margin-top: -50px;
+        
+    }
+    @media screen and(max-width:700px){
+        display: block;
+        
+    }
+}
+.BoatBox{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    margin-left: 10px;
+    margin-top: -50px;
+    margin-right: 10px;
+    position: relative;
+    background-color:white;
+    transition: transform 1s ease;
+    @media screen and(min-width:700px){
+        flex:1;
+        
+    }
+    @media screen and(max-width:700px){
+        display: block;
+        
+    }
+
+}
+
 .textWrapper{
     top: 50%;
     text-align: center;
@@ -53,7 +178,7 @@
 .img{
     position: relative;
     width: auto;
-    height: 1500px;
+    height: 1000px;
     background-image: url('../../public/HomePage2.jpg');
     background-size: cover;
     background-position: center;
@@ -67,7 +192,7 @@
 .imgWrapper{
     position: relative;
     display: block;
-    object-fit: cover;
+    
 }
 
 .card{
@@ -88,6 +213,27 @@
     width: auto;
     padding-right: 300px;
     background-image: url("../../public/TrentWithFish.PNG");
+    background-size: cover;
+    background-position: center;
+    @media  screen and(min-width: 1200px) {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+        
+    }
+    @media  screen and(max-width: 1200px) {
+        height: 700px;
+        position: relative;
+        display: block;
+        padding-bottom: 100px;
+    }
+    
+}
+.cardimgtwo{
+    position: relative;
+    width: auto;
+    height: auto;
+    background-image: url("../../public/TrentWithTuna.JPG");
     background-size: cover;
     background-position: center;
     @media  screen and(min-width: 1200px) {
@@ -196,6 +342,16 @@
     font-weight: bold;
     
 }
+.reviewintrotext{
+    position:relative;
+    display:block;
+    height:200px;
+    width: auto;
+    background-color: #ebab81;
+    text-align: center;
+    padding-top: 70px;
+
+}
 .reviewintro p{
     position: relative;
     display: block;
@@ -232,7 +388,15 @@
     display: block;
     background-color: white;
     width: auto;
-    height: 200px;
+    height: 150px;
+}
+.buttonBox{
+    position: relative;
+    display:block;
+    
+    height:auto;
+    width:auto;
+    
 }
 .button h1{
     text-align: center;

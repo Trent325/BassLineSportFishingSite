@@ -28,21 +28,31 @@
 }
 .cardText{
     position: relative;
-    display: block;
+    display:flex;
     width: auto;
     background-color: #ebab81;
     height: auto;
     width: auto;
+    padding-bottom: 30px;
     
 }
-.cardText p{
+.cardtextyBox{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    margin-top: -50px;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
     display: inline-block;
-    text-align:center;
-    font-size: 30px;
-    @media  screen and(max-width: 1200px) {
-        font-size: 20px;
-    }
+    flex: 1;
+    background-color:  white;
+    transition: transform 1s ease;
+}
+.cardText p{
+    
+    font-size: 20px;
+    
   
 }
 .container{
@@ -110,7 +120,7 @@
     display: block;
     background-color: white;
     width: auto;
-    height: 200px;
+    height: 150px;
     @media  screen and(max-width: 1200px) {
         height: 250px;
     }

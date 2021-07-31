@@ -64,7 +64,8 @@ const Gallery: React.FC =() => {
 
            
             <div className = {style.button}>
-               <h1><a href = "Report">Check Out Our Recent Trips</a></h1>
+               <h1><a href = "BookATrip">Book A Trip</a></h1>
+               
 
            </div>
             

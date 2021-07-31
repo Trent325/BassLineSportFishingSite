@@ -8,7 +8,9 @@ const BoatPageIntro: React.FC =() =>{
         
                 <div className={style.cardImg}></div>
                 <div className = {style.cardText}>
-                    <p>
+                    <div className = {style.cardtextyBox}>
+                        <h1>Check Out Our Boat</h1>
+                        <p>
                         Basslines is a very well-equipped Century z3200 Center Console with twin 250 Yamahas. The
                         boat cruises comfortably at 30 miles per hour and
                         top speed is 45 miles per hour. This boat holds 320
@@ -22,7 +24,9 @@ const BoatPageIntro: React.FC =() =>{
                         electronics, Garmin 3010C chartplotter / radar / color fishfinder / offshore
                         weather service and ICOM boat VHF radio. Also, an Epirb, rescue life raft, and
                         satellite phone.
-                    </p>
+                        </p>
+                    
+                </div>
                 </div>
 
                 <div>

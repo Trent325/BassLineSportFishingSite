@@ -9,7 +9,7 @@
     }
     @media  screen and(max-width: 1200px) {
         display: block;
-        height:1340px;
+        height:auto;
     }
     
 }
@@ -61,13 +61,13 @@
     display: block;
 }
 .headerText{
-    font-family: 'Permanent Marker', cursive;
+    
     font-size: 30px; 
     text-align: center;
     font-weight: bold;  
 }
 .body{
-    font-family: 'Permanent Marker', cursive;
+    
     font-size: 30px;
     padding-top: 20px;
 

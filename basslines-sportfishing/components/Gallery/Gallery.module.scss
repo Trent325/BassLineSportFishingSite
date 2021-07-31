@@ -433,7 +433,7 @@
     height: 200px;
    
     @media  screen and(max-width: 1200px) {
-        height: 500px;
+        height: auto;
         position: relative;
         display: block;
     }

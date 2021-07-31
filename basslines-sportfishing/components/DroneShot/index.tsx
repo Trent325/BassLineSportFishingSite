@@ -8,6 +8,17 @@ const DroneShot: React.FC =() => {
                 <video className={style.video} autoPlay muted loop playsInline>
                     <source src = "basslines.mp4"   type="video/mp4"></source>
                 </video>
+                <div className={style.landingContainerContainer}>
+                    <div className={style.landingContainerText}>
+                        <h1 className={style.landingContainerTextHeading }>BassLines Sport Fishing</h1>
+                    </div>
+                    <div className={style.landingContainerText}>\
+                        <h1 className={style.landingContainerTextSubheading}>Jersey Shore Fishing Charter</h1>
+
+                    </div>
+
+
+                </div>
             </div>
         </div>
     )
