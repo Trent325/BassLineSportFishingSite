@@ -90,10 +90,10 @@ function BookATrip() {
                     Prices
                 </h1>
                 <p>
-                    <li>Bass trips out of Harbor Side Marina $850</li>
-                    <li>Mid-Shore Tuna out of Clarks Landing $2100</li>
-                    <li>Off-Shore (Canyons) out of Clarks Landing $2600</li>
-                    <li>Black Fish out of Clarks Landing $950</li>
+                    <li>Bass trips out of Raritan Bay $900</li>
+                    <li>Mid-Shore Tuna out of Clarks Landing $2500</li>
+                    <li>Off-Shore (Canyons) out of Clarks Landing $3000</li>
+                    <li>Black Fish out of Clarks Landing $1000</li>
                     
                 </p>
                 
