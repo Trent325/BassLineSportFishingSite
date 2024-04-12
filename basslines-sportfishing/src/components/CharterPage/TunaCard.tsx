@@ -9,9 +9,9 @@ const TunaCard: React.FC = () => {
         Mid Shore Tuna Trips
       </Card.Header>
 
-      <Card.Body className="flex">
+      <Card.Body className="flex flex-col md:flex-row">
         {/* Left Side - Image */}
-        <div className="w-1/3">
+        <div className="md:w-1/3">
           <Card.Img
             src="/MidShoreTuna.jpg"
             alt="Card Image"
@@ -20,7 +20,7 @@ const TunaCard: React.FC = () => {
         </div>
 
         {/* Right Side - Subtitle and Paragraph */}
-        <div className="w-2/3 p-4">
+        <div className="md:w-2/3 p-4">
           <Card.Title className="text-xl font-bold mb-2">
             Mid Shore Trips Out of Clarks Landing
           </Card.Title>

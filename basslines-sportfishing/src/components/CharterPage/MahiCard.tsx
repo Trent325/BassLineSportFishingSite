@@ -9,9 +9,9 @@ const MahiCard: React.FC = () => {
         OffShore Sea Bass Trips
       </Card.Header>
 
-      <Card.Body className="flex">
+      <Card.Body className="flex flex-col md:flex-row">
         {/* Left Side - Image */}
-        <div className="w-1/3">
+        <div className="md:w-1/3">
           <Card.Img
             src="gallery/Gallery9.jpg"
             alt="Card Image"
@@ -20,7 +20,7 @@ const MahiCard: React.FC = () => {
         </div>
 
         {/* Right Side - Subtitle and Paragraph */}
-        <div className="w-2/3 p-4">
+        <div className="md:w-2/3 p-4">
         <Card.Title className="text-xl font-bold mb-2">OffShore Sea Bass Out of Clarks Landing</Card.Title>
           <Card.Text>
             In the winter months, we target giant seabass on our offshore

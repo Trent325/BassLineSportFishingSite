@@ -1,39 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { FaFish, FaPaperPlane, FaLifeRing } from "react-icons/fa";
 
 const BoatIntro: React.FC = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.5, // Change this value to adjust when to trigger the play
-    };
-
-    const callback: IntersectionObserverCallback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          if (videoRef.current) {
-            videoRef.current.play();
-          }
-        } else {
-          if (videoRef.current) {
-            videoRef.current.pause();
-          }
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(callback, options);
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
-    }
-
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
 
   return (
     <div className="container-fluid h-auto md:h-80 flex flex-col lg:flex-row items-center justify-center bg-gray-200">
