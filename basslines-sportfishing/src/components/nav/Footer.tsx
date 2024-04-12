@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
         </a>
 
         {/* Contact Phone Number */}
-        <p className="text-lg">Contact Us: (201)-906-6847</p>
+        <a href="tel:+12019066847" className="text-lg text-white">Contact Us: (201)-906-6847</a>
       </div>
     </footer>
   );
