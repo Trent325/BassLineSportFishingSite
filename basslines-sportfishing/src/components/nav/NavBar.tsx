@@ -16,7 +16,10 @@ const NavBar: React.FC = () => {
             Home
           </Nav.Link>
           <Nav.Link href="/AboutUs" className="text-black font-bold hover:bg-gray-200 py-2 px-3 rounded-md">
-            About Us
+            The Boat
+          </Nav.Link>
+          <Nav.Link href="/Crew" className="text-black font-bold hover:bg-gray-200 py-2 px-3 rounded-md">
+            The Crew
           </Nav.Link>
           <Nav.Link href="/Charters" className="text-black font-bold hover:bg-gray-200 py-2 px-3 rounded-md">
             Charters We Offer

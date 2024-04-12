@@ -15,6 +15,7 @@ export default defineConfig({
         AboutUs: './Boat.html',
         Trips: './Trips.html',
         404: "./404.html",
+        Crew: "./Crew.html"
       }
     }
   },

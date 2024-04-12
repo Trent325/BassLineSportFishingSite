@@ -18,9 +18,12 @@ const ImageGallery: React.FC<{ images: string[] }> = ({ images }) => {
           </div>
         ))}
       </div>
-      <div className="flex mt-4 mb-4 justify-center">
-        <Link to="/AboutUs" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <div className="flex mt-4 mb-4 justify-center justify-evenly">
+        <Link to="/Crew" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Meet the Crew
+        </Link>
+        <Link to="/AboutUs" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          See the Boat
         </Link>
       </div>
     </>
