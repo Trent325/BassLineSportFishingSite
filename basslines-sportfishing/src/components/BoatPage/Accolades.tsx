@@ -74,7 +74,11 @@ const CrewComponent: React.FC = () => {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src="MateTrent.jpg" />
+        <Card.Img
+          variant="top"
+          src="MateTrent.jpg"
+          style={{ maxHeight: "600px" }}
+        />
         <Card.Body>
           <Card.Title>First Mate Trent</Card.Title>
           <Card.Text>
