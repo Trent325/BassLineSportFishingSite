@@ -40,8 +40,8 @@ const BoatIntro: React.FC = () => {
       {/* Video */}
       <div className="w-full lg:w-2/3 max-w-screen-lg">
         <img
-          src="../../../public/BoatInSlip.jpg"
-          alt="Your Image Alt Text"
+          src="/BoatInSlip.jpg"
+          alt="Our 32 Century"
           style={{ width: "100%", height: "auto", maxHeight: "60vh" }}
         />
       </div>

@@ -13,7 +13,7 @@ const BassCard: React.FC = () => {
         {/* Left Side - Image */}
         <div className="w-1/3">
           <Card.Img
-            src="public/BassTrip.JPG"
+            src="/BassTrip.JPG"
             alt="Card Image"
             className="w-full h-auto"
           />

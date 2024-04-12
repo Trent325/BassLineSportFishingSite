@@ -26,7 +26,7 @@ const BoatSpecificationsCard: React.FC = () => {
 
       <div className="w-full lg:w-2/3 max-w-screen-lg">
         <img
-          src="/public/BoatInInlet.jpg"
+          src="/BoatInInlet.jpg"
           alt="Boat"
           className="w-full h-auto object-contain"
           style={{ maxHeight: "60vh" }}

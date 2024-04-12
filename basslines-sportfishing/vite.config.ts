@@ -13,7 +13,8 @@ export default defineConfig({
         main: './index.html',
         Charters: './Charters.html',
         AboutUs: './Boat.html',
-        Trips: './Trips.html'
+        Trips: './Trips.html',
+        404: "./404.html",
       }
     }
   },

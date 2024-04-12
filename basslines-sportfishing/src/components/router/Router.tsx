@@ -4,6 +4,7 @@ import HomePage from "../../../pages/Home";
 import CharterPage from "../../../pages/Charters";
 import BoatPage from "../../../pages/Boat";
 import TripPage from "../../../pages/Trips";
+import NotFound from "../../../pages/404";
 
 const AppRouter: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const AppRouter: React.FC = () => {
         <Route path="/Charters" Component={CharterPage} />
         <Route path="/AboutUs" Component={BoatPage} />
         <Route path="/Trips" Component={TripPage} />
+        <Route path="*" Component={NotFound} />
       </Routes>
     </Router>
   );

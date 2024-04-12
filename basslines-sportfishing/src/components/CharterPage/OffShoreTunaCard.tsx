@@ -13,7 +13,7 @@ const OffShoreTunaCard: React.FC = () => {
         {/* Left Side - Image */}
         <div className="w-1/3">
           <Card.Img
-            src="public/OffShoreTuna2.JPG"
+            src="/OffShoreTuna2.JPG"
             alt="Card Image"
             className="w-full h-auto"
           />
