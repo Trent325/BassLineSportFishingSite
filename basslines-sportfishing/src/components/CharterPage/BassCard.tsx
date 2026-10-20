@@ -49,7 +49,7 @@ const BassCard: React.FC = () => {
             lifetime extra large striped bas
           </Card.Text>
           <Card.Title className="text-xl font-bold mb-2">
-            Price: $1000
+            Price: $1100
           </Card.Title>
         </div>
       </Card.Body>
